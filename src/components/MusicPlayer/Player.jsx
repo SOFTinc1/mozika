@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 import React, { useRef, useEffect } from 'react';
-import Handel from "../../assets/music.mp3";
 
 const Player = ({ activeSong, isPlaying, volume, seekTime, onEnded, onTimeUpdate, onLoadedData, repeat }) => {
   const ref = useRef(null);
@@ -25,7 +24,6 @@ const Player = ({ activeSong, isPlaying, volume, seekTime, onEnded, onTimeUpdate
   return (
     <audio
       src={activeSong?.hub?.actions[1]?.uri}
-      // src={Handel}
       ref={ref}
       loop={repeat}
       onEnded={onEnded}
