@@ -1,0 +1,25 @@
+.home-main {
+  padding: 0 10px;
+}
+.music-player {
+  position: absolute;
+  height: 140px;
+  padding: 5px 0;
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+}
+@media screen and (max-width: 830px) {
+  .home-main {
+    padding: 0;
+  }
+  .routes {
+    display: block;
+    padding: 0 !important;
+  }
+  .music-player {
+    margin: 0 0 103px 0!important;
+    top: 1;
+    height: 90px;
+  }
+}
