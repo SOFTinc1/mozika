@@ -1,5 +1,6 @@
 import { HiUsers } from 'react-icons/hi';
-import { ImHome, ImFilePicture } from 'react-icons/im';
+import { AiFillHome } from 'react-icons/ai'; 
+import { ImFilePicture } from 'react-icons/im';
 import { SiHashnode } from 'react-icons/si';
 
 export const genres = [
@@ -20,7 +21,7 @@ export const genres = [
 ];
 
 export const links = [
-  { name: 'Discover', to: '/', icon: ImHome },
+  { name: 'Discover', to: '/', icon: AiFillHome },
   { name: 'Around You', to: '/around-you', icon: ImFilePicture },
   { name: 'Top Artists', to: '/top-artists', icon: HiUsers },
   { name: 'Top Charts', to: '/top-charts', icon: SiHashnode },

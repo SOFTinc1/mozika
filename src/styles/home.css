@@ -1,25 +1,48 @@
 .home-main {
+  margin: 0;
+  /* padding: 80px 0 0 0; */
+  /* padding: 0; */
+}
+.home-main2 {
   padding: 0 10px;
 }
+/* .searchContainer {
+  padding: 1050px 0 0 0;
+} */
 .music-player {
   position: absolute;
-  height: 140px;
+  height: 100px;
   padding: 5px 0;
-  bottom: 0; 
-  left: 0; 
-  right: 0; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.routes {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1.5fr 0.8fr;
+}
+.top-plays {
+  padding: 20px 0 0 0;
 }
 @media screen and (max-width: 830px) {
-  .home-main {
-    padding: 0 0 80px 0;
+  .home-main2 {
+    padding: 10px 10px 80px 0;
   }
   .routes {
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 0 !important;
   }
   .music-player {
-    margin: 0 0 110px 0!important;
+    margin: 0 0 110px 0 !important;
     top: 1;
     height: 90px;
   }
+  /* .route {
+    order: 3;
+  } */
+  /* .top-plays{
+    order: 2;
+  } */
 }

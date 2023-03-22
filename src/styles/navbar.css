@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  padding: 10px 40px;
+  background: #1d1d1d;
+}
+.LogoDiv {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logo {
+  width: 25px;
+  height: 25px;
+}
+.logoText {
+  font-family: quicksand;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: #fff;
+}
+.navForm {
+  border: 1px solid #494949;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 4px;
+  align-items: center;
+}
+.navForm input {
+  border: none;
+  width: 100%;
+  background: transparent;
+  border: 1px solid #494949;
+}
+.navForm input::placeholder {
+  font-family: quicksand;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: lowercase;
+  align-items: center;
+  margin: -10px 0 0 0;
+}
