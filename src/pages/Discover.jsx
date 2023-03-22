@@ -48,7 +48,7 @@ const Discover = () => {
       <img src={Frame} alt="banner-image" className="banner-img" />
       <img src={MobileFrame} alt="banner-image" className="mobile-banner-img" />
 
-      <div className="flex flex-wrap sm:justify-start justify-center gap-8">
+      <div className="flex flex-wrap sm:justify-start justify-center gap-8 songCard">
         {data.tracks?.map((song, i) => (
           <SongCard
             key={song.key}

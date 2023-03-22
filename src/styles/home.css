@@ -27,7 +27,7 @@
 }
 @media screen and (max-width: 830px) {
   .home-main2 {
-    padding: 10px 10px 80px 0;
+    padding: 150px 10px 80px 0;
   }
   .routes {
     display: flex;
